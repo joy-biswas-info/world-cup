@@ -195,10 +195,10 @@ p{font-size: 10px;}
         width: 200px;
     }
     .banner-paragraph{
-        color: var(--optional-color);
-        overflow: hidden;
-        height: 14px;
-        text-overflow: ellipsis;
+        white-space: nowrap; 
+  width: 150px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
     }
 
     .banner-img{
